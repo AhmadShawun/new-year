@@ -7,7 +7,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
-/* header part css */
+/* header part css start*/
 .header-section img {
     width: 100%;
 }
@@ -42,4 +42,30 @@
     border: 0;
     border-radius: 5px;
     margin-left: 350px;
+}
+
+/* main section start */
+.first-main-sec{
+    display: flex;
+    margin: 250px 200px;
+    background-color: aquamarine;
+    border-radius: 25px;
+}
+.first-main-sec-text{
+    margin-top: 250px;
+    margin-left: 80px;
+}
+.first-main-sec-text h1{
+    font-size: 38px;
+    margin-bottom: 25px;
+    color: rgb(71, 73, 74);
+}
+.first-main-sec-text p{
+    margin-bottom: 20px;
+    width: 65%;
+    color: rgb(56, 55, 55);
+}
+/* my plan section css start */
+.plans-section{
+    
 }
