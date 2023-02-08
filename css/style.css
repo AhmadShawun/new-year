@@ -47,7 +47,7 @@
 /* main section start */
 .first-main-sec{
     display: flex;
-    margin: 250px 200px;
+    margin: 250px 200px 80px;
     background-color: aquamarine;
     border-radius: 25px;
 }
@@ -67,5 +67,52 @@
 }
 /* my plan section css start */
 .plans-section{
+    margin: 0 200px;
+}
+.plans-section > h1{
+    text-align: center;
+    font-size: 2.5em;
+}
+.plans-varietion-sec{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 50px;
+}
+.plans-varietion-sec h1{
+    margin-top: 20px;
+}
+.plans-varietion-sec p{
+    margin-top: 10px;
+    font-size: 24px;
+    color: gray;
+}
+/* gradient-section start css */
+.gradient-section{
+    margin: 100px 200px;
+    background-image: url(/images/watch.png);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-repeat: no-repeat;
+    border-radius: 25px 25px 25px 25px;
+}
+.gradient-section-text{
+    margin-left: 45px;
+    margin-top: -200px;
+}
+.gradient-section-text h1{
+    font-size: 40px;
+    width: 550px;
+    color: aliceblue;
+    margin-bottom: 10px;
+}
+.gradient-section-text button{
+    width: 150px;
+    height: 50px;
+    border: 0;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: rgb(213, 237, 25);
     
 }
