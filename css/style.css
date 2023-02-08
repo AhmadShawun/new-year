@@ -6,3 +6,40 @@
     padding: 0;
     font-family: 'Roboto', sans-serif;
 }
+
+/* header part css */
+.header-section img {
+    width: 100%;
+}
+
+.header-sec-text {
+    margin-left: 850px;
+    width: 500px;
+    margin-top: -550px;
+}
+
+.header-sec-text h1 {
+    font-size: 68px;
+    text-align: right;
+}
+
+.header-sec-text p {
+    text-align: right;
+    color: rgb(71, 67, 67);
+    font-size: 18px;
+    width: 450px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.header-sec-text button {
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+    background-color: rgb(160, 15, 148);
+    color: aliceblue;
+    border: 0;
+    border-radius: 5px;
+    margin-left: 350px;
+}
